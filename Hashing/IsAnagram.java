@@ -30,7 +30,7 @@ public class IsAnagram {
         String s1 = sc.next();
         System.out.println("Enter the second string:");
         String s2 = sc.next();
-        System.out.println("Is the two strings Anagram : " + isAnagram(s1, s2));
+        System.out.println("Are the two strings Anagram of each other: " + isAnagram(s1, s2));
         sc.close();
     }
 }

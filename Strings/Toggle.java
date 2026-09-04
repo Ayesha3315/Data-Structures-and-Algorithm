@@ -6,6 +6,8 @@ public class Toggle { // toggle-> converting capital letters to small letters an
     public static void toggle(StringBuilder str) {
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
+            if (ch == ' ')
+                continue;
             int asci = (int) ch;
             boolean flag = true; // capital letter
             if (asci >= 97)
